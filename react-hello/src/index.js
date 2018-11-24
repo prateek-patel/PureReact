@@ -3,7 +3,18 @@ import ReactDOM from 'react-dom';
 
 function HelloWorld() {
     return (
-        <div>HelloWorld !</div>
+        <div><Hello/> <World/>!</div>
+    );
+}
+
+function Hello() {
+    return (
+        <span>Hello</span>
+    );
+}
+function World() {
+    return (
+        <span>World!</span>
     );
 }
 
